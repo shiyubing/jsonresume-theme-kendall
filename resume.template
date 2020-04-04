@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-7">
+        <div class="col-xs-12 col-sm-8">
           {{#basics.summary}}
           <!-- ABOUT ME -->
           <div class="box">
@@ -134,7 +134,7 @@
           </div>
           {{/volunteerBool}}
         </div>
-        <div class="col-xs-12 col-sm-5">
+        <div class="col-xs-12 col-sm-4 right-column">
           <!-- CONTACT -->
           <div class="box clearfix">
             <h2><i class="fa fa-bullseye ico"></i> Contact</h2>

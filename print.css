@@ -1,5 +1,5 @@
 body {
-  font-size: .95em;
+  font-size: 1.2em;
   -webkit-print-color-adjust: exact;
 }
 
@@ -9,6 +9,10 @@ a[href]:after {
 
 #photo{
   display: none;
+}
+
+.right-column{
+  border-left: 1px solid #ddd;
 }
 
 .box {
@@ -24,19 +28,31 @@ blockquote,
 .interests {
   page-break-inside: avoid;
 }
+.skill-level {
+  display: none;
+}
+.col-sm-4 {
+  width: 33%;
+  padding: 0 15px;
+}
 
-.col-sm-5{
+.col-sm-5 {
   width: 40%;
   padding: 0 15px;
 }
 
-.col-sm-7{
+.col-sm-7 {
   width: 60%;
   padding: 0 15px;
 }
 
+.col-sm-8 {
+  width: 66%;
+  padding: 0 15px;
+}
+
 .skills .col-sm-offset-1,
-.interests .col-sm-offset-1{
+.interests .col-sm-offset-1 {
   margin-top: -10px;
   margin-bottom: 5px;
 }
@@ -54,6 +70,7 @@ blockquote,
 #education .description,
 .job .details {
   border: 1px solid #eee;
+  border-right: none;
 }
 .publication,
 .publication .panel-heading,
@@ -71,10 +88,13 @@ blockquote,
   margin: 0;
 }
 
+.list-group{
+  margin-bottom: 5px;
+}
 .list-group-item{
   border: none;
   margin: 0;
-  padding: 5px 15px;
+  padding: 3px 10px;
 }
 .list-group-item:after{
   content: '';

@@ -68,6 +68,10 @@ blockquote {
   display: block;
 }
 
+.right-column{
+  border-left: 1px solid #ddd;
+}
+
 .box{
   padding-bottom: 10px;
   margin-bottom: 25px;
@@ -159,7 +163,7 @@ blockquote {
 }
 
 .job{
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .job .details {
   margin-left: 3%;
